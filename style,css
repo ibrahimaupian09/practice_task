@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+}
+#container{
+    background-color: black;
+    margin: 0 auto;
+    width: 22%;
+    height: 360px;
+    margin-top: 6%;
+    padding-top: 1%;
+    border-radius: 40px;
+}
+div{
+    margin-left: 5%;
+}
+#text{
+    width: 90%;
+    scroll-padding-left: 10px;
+    background-color: rgb(132, 74, 8);
+    text-align: end;
+    height: 45px;
+    border-radius: 20px;
+    border: rgb(132, 74, 8);
+}
+.btn{
+    width: 22%;
+    height: 45px;
+    margin-top: 5%;
+    box-shadow: 4px 8px 10px 4px rgb(24, 21, 21);
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+#clear{
+    width: 46%;
+    height: 45px;
+    box-shadow: 4px 8px 8px 4px rgb(29, 29, 29);
+    background-color: rgb(242, 51, 51);
+    border-radius: 20px;
+    color: #ffff;
+    border: 1px solid red;
+}
+#plus{
+    width: 22.5%;
+    height: 103px;
+    float: right;
+    margin-top: 5%;
+    margin-right: 16px;
+    box-shadow: 4px 8px 8px 4px rgb(29, 29, 29);
+    border-radius: 20px;
+    color: #ffff;
+    background-color: #0000;
+    border: 1px solid black;
+}
+#equal{
+    width: 22.5%;
+    height: 45px;
+    box-shadow: 4px 8px 8px 4px rgb(29, 29, 29);
+    background-color: rgb(59, 134, 239);
+    border-radius: 20px;
+    color: #ffff;
+    border: blue;
+}
